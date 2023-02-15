@@ -1,6 +1,42 @@
 [
     {
-        "merged": "es.grupo3.myapplication.app-mergeDebugResources-47:/layout/activity_main.xml",
-        "source": "es.grupo3.myapplication.app-main-50:/layout/activity_main.xml"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_avisos.xml",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_avisos.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_inicio.xml",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_inicio.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_historial.xml",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_historial.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_mantenimiento_guardia.xml",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_mantenimiento_guardia.xml"
+    },
+    {
+        "merged": "es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_avisos.xml",
+        "source": "es.grupo3.myapplication.app-main-50:/layout/fragment_avisos.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_login.xml",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_historial.xml",
+        "source": "es.grupo3.myapplication.app-main-50:/layout/fragment_historial.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_aceptadas.xml",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_aceptadas.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "es.grupo3.myapplication.app-mergeDebugResources-47:/layout/fragment_aceptadas.xml",
+        "source": "es.grupo3.myapplication.app-main-50:/layout/fragment_aceptadas.xml"
     }
 ]

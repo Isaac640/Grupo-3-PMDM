@@ -1,70 +1,150 @@
 [
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/xml/data_extraction_rules.xml"
+        "merged": "es.grupo3.myapplication.app-merged_res-48:/layout_fragment_avisos.xml.flat",
+        "source": "es.grupo3.myapplication.app-main-50:/layout/fragment_avisos.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "es.grupo3.myapplication.app-merged_res-48:/layout_fragment_aceptadas.xml.flat",
+        "source": "es.grupo3.myapplication.app-main-50:/layout/fragment_aceptadas.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/navigation_nav_graph.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/navigation/nav_graph.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/xml_backup_rules.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/xml/backup_rules.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/xml_backup_rules.xml.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/xml/backup_rules.xml"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_paper_airplane.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/paper_airplane.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-pngs-43:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "es.grupo3.myapplication.app-pngs-43:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/layout_fragment_inicio.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_inicio.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/layout_activity_main.xml.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/layout/activity_main.xml"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/layout_fragment_login.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_login.xml"
     },
     {
-        "merged": "es.grupo3.myapplication.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "es.grupo3.myapplication.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_lock.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/lock.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_login_img.png.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/login_img.png"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_roundstyle.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/roundstyle.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_person.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/person.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/layout_fragment_mantenimiento_guardia.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_mantenimiento_guardia.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_search.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/search.xml"
+    },
+    {
+        "merged": "es.grupo3.myapplication.app-merged_res-48:/layout_fragment_historial.xml.flat",
+        "source": "es.grupo3.myapplication.app-main-50:/layout/fragment_historial.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_add.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/add.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_pencil.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/pencil.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/layout_fragment_aceptadas.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_aceptadas.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/layout_fragment_avisos.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_avisos.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/layout_fragment_historial.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/fragment_historial.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_sign_out.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/sign_out.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/drawable_arrow_left.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/drawable/arrow_left.xml"
+    },
+    {
+        "merged": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-merged_res-48:/layout_activity_main.xml.flat",
+        "source": "/Users/ruben/.gradle/daemon/7.3.3/es.grupo3.myapplication.app-main-50:/layout/activity_main.xml"
     }
 ]

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/ruben/.gradle/caches/transforms-3/47b87ff9a7a02422a7f1260524c807cd/transformed/viewbinding-7.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/ruben/.gradle/caches/transforms-3/24a7d5c9232544268d06cf2c36536592/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] /Users/ruben/.gradle/caches/transforms-3/0cae78e2eb26a95795d73ebfaa104b5d/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
@@ -65,27 +65,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/ruben/.gradle/cach
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/ruben/.gradle/caches/transforms-3/d1c44cd4ad46464bb33537d839631a11/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/ruben/.gradle/caches/transforms-3/e369a274a198873587f4f39a386c16c7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ruben/.gradle/caches/transforms-3/cffae8dffaf81854dd4d9e3d6e10dfe4/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:4:5-38
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:4:5-38
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:3:5-51
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:1-27:12
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:6:5-25:19
+ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:6:5-25:19
 MERGED from [com.google.android.material:material:1.7.0] /Users/ruben/.gradle/caches/transforms-3/146ed10992b6875271128ae3ffc8c883/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] /Users/ruben/.gradle/caches/transforms-3/146ed10992b6875271128ae3ffc8c883/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/ruben/.gradle/caches/transforms-3/479e62917529d048d0e178b459b00779/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -105,43 +105,43 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/ruben/.gradle/caches
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.8.0] /Users/ruben/.gradle/caches/transforms-3/0bbd1ac94e5abeb89e25cdfd432b4829/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:11:9-41
 	android:fullBackupContent
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:9:9-54
 	android:roundIcon
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:12:9-54
 	tools:targetApi
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:15:9-29
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:15:9-29
 	android:icon
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:7:9-35
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:14:9-58
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:14:9-58
 	android:dataExtractionRules
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:8:9-65
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:8:9-65
 activity#es.grupo3.myapplication.MainActivity
-ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:16:9-24:20
+ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:16:9-24:20
 	android:exported
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:18:13-36
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:17:13-41
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:17:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/ruben/.gradle/caches/transforms-3/47b87ff9a7a02422a7f1260524c807cd/transformed/viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.databinding:viewbinding:7.2.1] /Users/ruben/.gradle/caches/transforms-3/47b87ff9a7a02422a7f1260524c807cd/transformed/viewbinding-7.2.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.3] /Users/ruben/.gradle/caches/transforms-3/24a7d5c9232544268d06cf2c36536592/transformed/navigation-fragment-ktx-2.5.3/AndroidManifest.xml:20:5-22:41
@@ -264,16 +264,16 @@ MERGED from [androidx.print:print:1.0.0] /Users/ruben/.gradle/caches/transforms-
 MERGED from [androidx.print:print:1.0.0] /Users/ruben/.gradle/caches/transforms-3/e369a274a198873587f4f39a386c16c7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ruben/.gradle/caches/transforms-3/cffae8dffaf81854dd4d9e3d6e10dfe4/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/ruben/.gradle/caches/transforms-3/cffae8dffaf81854dd4d9e3d6e10dfe4/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+		ADDED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0] /Users/ruben/.gradle/caches/transforms-3/b78b12446456cc9b94381cebbe873725/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
 	android:required

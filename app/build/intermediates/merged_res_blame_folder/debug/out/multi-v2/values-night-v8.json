@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ruben/Development/Insti/Grupo-3-PMDM/Grupo_3_Intermodular_Moviles/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
