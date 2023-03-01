@@ -10,29 +10,18 @@ import java.math.BigInteger
 import java.security.MessageDigest
 
 class ViewModel : ViewModel() {
+    //lateinit var Profesor profesor
+
     val guardiasLiveData = MutableLiveData<List<Guardia>>()
     val estaCargandoLiveData = MutableLiveData<Boolean>()
     private var cargado = false
 
     private val repository = Repository()
 
-    fun iniciarSesion(user: String, passwd: String): Int {
-        var id: Int = 0
-
-        println(user)
-        println(passwd)
-
-        viewModelScope.launch {
-            id = repository.iniciarSesion(user, passwd)
-        }
-
-        return id
-    }
-
     fun cargarGuardias() {
         viewModelScope.launch {
             if (!cargado) {
-                var guardias: List<Guardia> = repository.get()
+                var guardias: List<Guardia> = repository.getGuardias()
 
                 estaCargandoLiveData.postValue(true)
                 guardiasLiveData.postValue(guardias)

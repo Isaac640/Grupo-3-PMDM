@@ -2953,6 +2953,7 @@ id line1
 id line3
 id linear
 id linearLayout
+id linearLayout3
 id linearLayoutBuscar
 id linearLayoutContrasena
 id linearLayoutFalta
@@ -3063,6 +3064,7 @@ id pin
 id position
 id postLayout
 id pressed
+id progressBar
 id progressBarCarga
 id progress_circular
 id progress_horizontal

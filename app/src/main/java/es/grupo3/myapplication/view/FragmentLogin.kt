@@ -8,13 +8,18 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
+import androidx.core.view.isVisible
 import androidx.fragment.app.FragmentActivity
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.lifecycleScope
 import androidx.navigation.findNavController
 import es.grupo3.myapplication.R
+import es.grupo3.myapplication.data.Repository
 import es.grupo3.myapplication.databinding.FragmentLoginBinding
+import es.grupo3.myapplication.model.Profesor
 import es.grupo3.myapplication.viewmodel.ViewModel
+import kotlinx.coroutines.launch
 
 class FragmentLogin : Fragment() {
     private lateinit var binding: FragmentLoginBinding
@@ -32,17 +37,38 @@ class FragmentLogin : Fragment() {
         binding.btnContinuar.setOnClickListener {
 
             if (binding.txtUsuario.text.isEmpty() || binding.txtContrasena.text.isEmpty()) {
-                Toast.makeText(requireContext(), "Uno o varios campos están vacíos", Toast.LENGTH_SHORT).show()
-            } else {
-                val id: Int = viewModel.iniciarSesion(binding.txtUsuario.text.toString(), viewModel.encryptMD5(binding.txtContrasena.text.toString()))
+                Toast.makeText(
+                    requireContext(),
+                    "Uno o varios campos están vacíos",
+                    Toast.LENGTH_SHORT
+                ).show()
+
+                return@setOnClickListener
+            }
+
+            binding.progressBar.isVisible = true
+            lifecycleScope.launch {
+                var repository: Repository = Repository()
+
+                val id: Int = repository.iniciarSesion(
+                    binding.txtUsuario.text.toString(),
+                    viewModel.encryptMD5(binding.txtContrasena.text.toString())
+                )
 
                 if (id == 0) {
-                    Toast.makeText(requireContext(), "Usuario o Contraseña incorrectos", Toast.LENGTH_SHORT).show()
-                    return@setOnClickListener
+                    Toast.makeText(
+                        requireContext(),
+                        "Usuario o Contraseña incorrectos",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    return@launch
                 }
+
+                //var profesor: Profesor = repository.getProfesor(id)
 
                 view.findNavController().navigate(R.id.action_fragmentLogin_to_fragmentInicio)
             }
+            binding.progressBar.isVisible = false
         }
 
         cancelGoBack(requireActivity(), viewLifecycleOwner)

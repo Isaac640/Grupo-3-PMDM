@@ -1,14 +1,13 @@
 package es.grupo3.myapplication.data.api
 
 import es.grupo3.myapplication.model.Guardia
+import es.grupo3.myapplication.model.Profesor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.http.GET
-import retrofit2.http.Header
-import retrofit2.http.POST
+import retrofit2.http.*
 
 private const val URL_BASE =
-    "http://192.168.1.210:8080/"
+    "http://10.0.13.101:8080/"
 
 private val retrofit = Retrofit.Builder()
     .baseUrl(URL_BASE)
@@ -16,11 +15,14 @@ private val retrofit = Retrofit.Builder()
     .build()
 
 interface ApiService {
-    @GET("guardia")
-    suspend fun getGuardias(): List<Guardia>
-
     @POST("login")
     suspend fun iniciarSesion(@Header("user") user: String, @Header("passwd") passwd: String): Int
+
+    @GET("profesor/buscar")
+    suspend fun getProfesor(@Query("id") id: Int): Profesor
+
+    @GET("guardia")
+    suspend fun getGuardias(): List<Guardia>
 }
 
 object Api {

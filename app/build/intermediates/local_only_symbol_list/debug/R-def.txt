@@ -40,6 +40,7 @@ id ivwInicioSesion
 id layout
 id layoutFragmentHolder
 id linearLayout
+id linearLayout3
 id linearLayoutBuscar
 id linearLayoutContrasena
 id linearLayoutFalta
@@ -48,6 +49,7 @@ id linearLayoutSustituye
 id linearLayoutTitulo
 id lytUsuario
 id nav_graph
+id progressBar
 id progressBarCarga
 id recyclerView
 id send

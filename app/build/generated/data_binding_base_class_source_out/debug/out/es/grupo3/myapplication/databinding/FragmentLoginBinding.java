@@ -8,9 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import es.grupo3.myapplication.R;
@@ -20,10 +22,10 @@ import java.lang.String;
 
 public final class FragmentLoginBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
-  public final LinearLayout ConstraintLayout;
+  public final ConstraintLayout ConstraintLayout;
 
   @NonNull
   public final Button btnContinuar;
@@ -38,10 +40,16 @@ public final class FragmentLoginBinding implements ViewBinding {
   public final ImageView ivwInicioSesion;
 
   @NonNull
+  public final LinearLayout linearLayout3;
+
+  @NonNull
   public final LinearLayout linearLayoutContrasena;
 
   @NonNull
   public final LinearLayout lytUsuario;
+
+  @NonNull
+  public final ProgressBar progressBar;
 
   @NonNull
   public final TextView tvwInicioSesion;
@@ -52,11 +60,12 @@ public final class FragmentLoginBinding implements ViewBinding {
   @NonNull
   public final EditText txtUsuario;
 
-  private FragmentLoginBinding(@NonNull LinearLayout rootView,
-      @NonNull LinearLayout ConstraintLayout, @NonNull Button btnContinuar,
+  private FragmentLoginBinding(@NonNull ConstraintLayout rootView,
+      @NonNull ConstraintLayout ConstraintLayout, @NonNull Button btnContinuar,
       @NonNull ImageView imvUsuario, @NonNull ImageView ivwContrasena,
-      @NonNull ImageView ivwInicioSesion, @NonNull LinearLayout linearLayoutContrasena,
-      @NonNull LinearLayout lytUsuario, @NonNull TextView tvwInicioSesion,
+      @NonNull ImageView ivwInicioSesion, @NonNull LinearLayout linearLayout3,
+      @NonNull LinearLayout linearLayoutContrasena, @NonNull LinearLayout lytUsuario,
+      @NonNull ProgressBar progressBar, @NonNull TextView tvwInicioSesion,
       @NonNull EditText txtContrasena, @NonNull EditText txtUsuario) {
     this.rootView = rootView;
     this.ConstraintLayout = ConstraintLayout;
@@ -64,8 +73,10 @@ public final class FragmentLoginBinding implements ViewBinding {
     this.imvUsuario = imvUsuario;
     this.ivwContrasena = ivwContrasena;
     this.ivwInicioSesion = ivwInicioSesion;
+    this.linearLayout3 = linearLayout3;
     this.linearLayoutContrasena = linearLayoutContrasena;
     this.lytUsuario = lytUsuario;
+    this.progressBar = progressBar;
     this.tvwInicioSesion = tvwInicioSesion;
     this.txtContrasena = txtContrasena;
     this.txtUsuario = txtUsuario;
@@ -73,7 +84,7 @@ public final class FragmentLoginBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -98,7 +109,7 @@ public final class FragmentLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      LinearLayout ConstraintLayout = (LinearLayout) rootView;
+      ConstraintLayout ConstraintLayout = (ConstraintLayout) rootView;
 
       id = R.id.btnContinuar;
       Button btnContinuar = ViewBindings.findChildViewById(rootView, id);
@@ -124,6 +135,12 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearLayout3;
+      LinearLayout linearLayout3 = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout3 == null) {
+        break missingId;
+      }
+
       id = R.id.linearLayoutContrasena;
       LinearLayout linearLayoutContrasena = ViewBindings.findChildViewById(rootView, id);
       if (linearLayoutContrasena == null) {
@@ -133,6 +150,12 @@ public final class FragmentLoginBinding implements ViewBinding {
       id = R.id.lytUsuario;
       LinearLayout lytUsuario = ViewBindings.findChildViewById(rootView, id);
       if (lytUsuario == null) {
+        break missingId;
+      }
+
+      id = R.id.progressBar;
+      ProgressBar progressBar = ViewBindings.findChildViewById(rootView, id);
+      if (progressBar == null) {
         break missingId;
       }
 
@@ -154,9 +177,9 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentLoginBinding((LinearLayout) rootView, ConstraintLayout, btnContinuar,
-          imvUsuario, ivwContrasena, ivwInicioSesion, linearLayoutContrasena, lytUsuario,
-          tvwInicioSesion, txtContrasena, txtUsuario);
+      return new FragmentLoginBinding((ConstraintLayout) rootView, ConstraintLayout, btnContinuar,
+          imvUsuario, ivwContrasena, ivwInicioSesion, linearLayout3, linearLayoutContrasena,
+          lytUsuario, progressBar, tvwInicioSesion, txtContrasena, txtUsuario);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
