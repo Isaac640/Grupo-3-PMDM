@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentLogin">
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="es.grupo3.myapplication.view.FragmentLogin"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentInicio"
+            app:destination="@id/fragmentInicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentInicio"
+        android:name="es.grupo3.myapplication.view.FragmentInicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_fragmentInicio_to_fragmentMantenimientoGuardia"
+            app:destination="@id/fragmentMantenimientoGuardia" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMantenimientoGuardia"
+        android:name="es.grupo3.myapplication.view.FragmentMantenimientoGuardia"
+        android:label="fragment_mantenimiento_guardia"
+        tools:layout="@layout/fragment_mantenimiento_guardia" />
+</navigation>

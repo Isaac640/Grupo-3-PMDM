@@ -32,10 +32,12 @@ id editText
 id fragmentInicio
 id fragmentLogin
 id fragmentMantenimientoGuardia
+id imageViewFotoAnimal
 id imvUsuario
 id ivwBuscar
 id ivwContrasena
 id ivwInicioSesion
+id layout
 id layoutFragmentHolder
 id linearLayout
 id linearLayoutBuscar
@@ -46,10 +48,13 @@ id linearLayoutSustituye
 id linearLayoutTitulo
 id lytUsuario
 id nav_graph
+id progressBarCarga
+id recyclerView
 id send
 id sign_out
 id tabLayout
 id textView2
+id textViewNombreAnimal
 id tvwInicioSesion
 id txtBuscar
 id txtContrasena
@@ -66,6 +71,7 @@ layout fragment_historial
 layout fragment_inicio
 layout fragment_login
 layout fragment_mantenimiento_guardia
+layout item_guardia
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation nav_graph

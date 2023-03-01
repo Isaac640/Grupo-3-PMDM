@@ -2928,6 +2928,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageViewFotoAnimal
 id immediateStop
 id imvUsuario
 id included
@@ -3062,11 +3063,13 @@ id pin
 id position
 id postLayout
 id pressed
+id progressBarCarga
 id progress_circular
 id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3163,6 +3166,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView2
+id textViewNombreAnimal
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3366,6 +3370,7 @@ layout fragment_historial
 layout fragment_inicio
 layout fragment_login
 layout fragment_mantenimiento_guardia
+layout item_guardia
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
