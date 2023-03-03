@@ -4,24 +4,24 @@
             "outputFile": "es.grupo3.myapplication.app-mergeDebugResources-46:/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "/Users/ruben/.gradle/caches/transforms-3/0bbd1ac94e5abeb89e25cdfd432b4829/transformed/core-1.8.0/res/values-sk/values-sk.xml",
+                    "source": "D:\\Usuarios\\dam218\\.gradle\\caches\\transforms-3\\d4db43641cfda934f2d7d7eb1812fc0a\\transformed\\navigation-ui-2.5.3\\res\\values-sk\\values-sk.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,161",
+                        "endColumns": "105,126",
+                        "endOffsets": "156,283"
                     },
                     "to": {
-                        "startLines": "95",
-                        "startColumns": "4",
-                        "startOffsets": "7941",
-                        "endColumns": "100",
-                        "endOffsets": "8037"
+                        "startLines": "91,92",
+                        "startColumns": "4,4",
+                        "startOffsets": "7546,7652",
+                        "endColumns": "105,126",
+                        "endOffsets": "7647,7774"
                     }
                 },
                 {
-                    "source": "/Users/ruben/.gradle/caches/transforms-3/146ed10992b6875271128ae3ffc8c883/transformed/material-1.7.0/res/values-sk/values-sk.xml",
+                    "source": "D:\\Usuarios\\dam218\\.gradle\\caches\\transforms-3\\146ed10992b6875271128ae3ffc8c883\\transformed\\material-1.7.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "/Users/ruben/.gradle/caches/transforms-3/c00ac78b49ac8b2f4684ea47d108c479/transformed/appcompat-1.5.1/res/values-sk/values-sk.xml",
+                    "source": "D:\\Usuarios\\dam218\\.gradle\\caches\\transforms-3\\c00ac78b49ac8b2f4684ea47d108c479\\transformed\\appcompat-1.5.1\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,20 +57,20 @@
                     }
                 },
                 {
-                    "source": "/Users/ruben/.gradle/caches/transforms-3/d4db43641cfda934f2d7d7eb1812fc0a/transformed/navigation-ui-2.5.3/res/values-sk/values-sk.xml",
+                    "source": "D:\\Usuarios\\dam218\\.gradle\\caches\\transforms-3\\0bbd1ac94e5abeb89e25cdfd432b4829\\transformed\\core-1.8.0\\res\\values-sk\\values-sk.xml",
                     "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,161",
-                        "endColumns": "105,126",
-                        "endOffsets": "156,283"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "91,92",
-                        "startColumns": "4,4",
-                        "startOffsets": "7546,7652",
-                        "endColumns": "105,126",
-                        "endOffsets": "7647,7774"
+                        "startLines": "95",
+                        "startColumns": "4",
+                        "startOffsets": "7941",
+                        "endColumns": "100",
+                        "endOffsets": "8037"
                     }
                 }
             ]

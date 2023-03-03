@@ -4,7 +4,7 @@
             "outputFile": "es.grupo3.myapplication.app-mergeDebugResources-46:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/Users/ruben/.gradle/caches/transforms-3/c00ac78b49ac8b2f4684ea47d108c479/transformed/appcompat-1.5.1/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "D:\\Usuarios\\dam218\\.gradle\\caches\\transforms-3\\c00ac78b49ac8b2f4684ea47d108c479\\transformed\\appcompat-1.5.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

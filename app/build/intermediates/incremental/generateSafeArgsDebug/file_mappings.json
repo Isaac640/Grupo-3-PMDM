@@ -1,1 +1,1 @@
-[{"navFile":"src/main/res/navigation/nav_graph.xml","javaFiles":["es.grupo3.myapplication.view.FragmentLoginDirections","es.grupo3.myapplication.view.FragmentInicioDirections"]}]
+[{"navFile":"src\\main\\res\\navigation\\nav_graph.xml","javaFiles":["es.grupo3.myapplication.view.FragmentLoginDirections","es.grupo3.myapplication.view.FragmentInicioDirections"]}]
