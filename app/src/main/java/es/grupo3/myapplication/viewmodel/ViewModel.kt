@@ -4,17 +4,19 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import es.grupo3.myapplication.data.Repository
-import es.grupo3.myapplication.model.Guardia
+import es.grupo3.myapplication.model.*
 import kotlinx.coroutines.launch
 import java.math.BigInteger
 import java.security.MessageDigest
+import java.lang.Exception
 
 class ViewModel : ViewModel() {
-    //lateinit var Profesor profesor
+    lateinit var profesor: Profesor
+    var horariosGuardias: List<HorarioGuardia> = listOf()
 
     val guardiasLiveData = MutableLiveData<List<Guardia>>()
     val estaCargandoLiveData = MutableLiveData<Boolean>()
-    private var cargado = false
+    var cargado = false
 
     private val repository = Repository()
 
@@ -22,6 +24,7 @@ class ViewModel : ViewModel() {
         viewModelScope.launch {
             if (!cargado) {
                 var guardias: List<Guardia> = repository.getGuardias()
+                horariosGuardias = repository.getHorarioGuardias(profesor.id)
 
                 estaCargandoLiveData.postValue(true)
                 guardiasLiveData.postValue(guardias)
@@ -31,12 +34,16 @@ class ViewModel : ViewModel() {
         }
     }
 
-    private fun onClickGuardia(guardia: Guardia) {
+    fun filtrar(filtro: String) {
+        var guardiasFiltradas = guardiasLiveData.value?.filter {
+            it.grupo.contains(filtro) || it.aula.contains(filtro) || it.profFalta.getFullName()
+                .contains(filtro)
+        }?.toList()
+
+        guardiasLiveData.postValue(guardiasFiltradas ?: guardiasLiveData.value)
     }
 
     fun encryptMD5(input: String): String {
-        //81dc9bdb52d04dc20036dbd8313ed055
-
         val md = MessageDigest.getInstance("MD5")
         return BigInteger(1, md.digest(input.toByteArray())).toString(16);
     }

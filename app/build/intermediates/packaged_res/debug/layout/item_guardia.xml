@@ -1,37 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:strokeWidth="1dp"
     app:strokeColor="@color/black"
-    app:cardElevation="20dp"
+    app:cardElevation="5dp"
     android:layout_margin="4dp">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content" >
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/iconConstraint"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginVertical="14dp"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageViewFotoAnimal"
-            android:layout_width="wrap_content"
-            android:layout_height="90dp"
+            android:id="@+id/iconImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:adjustViewBounds="true"
-            app:srcCompat="@drawable/ic_launcher_foreground"
+            app:srcCompat="@drawable/file" />
+
+        <TextView
+            android:id="@+id/txtEstado"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:padding="3dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            tools:text="ACEPTADA"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
         <TextView
-            android:id="@+id/textViewNombreAnimal"
+            android:id="@+id/txtGrupo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            tools:text="Grupo: ESO1B"
+            app:layout_constraintStart_toEndOf="@+id/iconConstraint"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtAula"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:text="Nombre del animal"
-            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"
+            tools:text="Aula: A1"
+            app:layout_constraintStart_toEndOf="@+id/txtGrupo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtProfFalta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            tools:text="Falta: Iván Lorenzo Ruiz"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/imageViewFotoAnimal"
+            app:layout_constraintStart_toEndOf="@+id/iconConstraint" />
+
+        <TextView
+            android:id="@+id/txtDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            tools:text="Miércoles 14"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
 

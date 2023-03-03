@@ -22,21 +22,42 @@ public final class ItemGuardiaBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
-  public final ImageView imageViewFotoAnimal;
+  public final ConstraintLayout iconConstraint;
+
+  @NonNull
+  public final ImageView iconImageView;
 
   @NonNull
   public final ConstraintLayout layout;
 
   @NonNull
-  public final TextView textViewNombreAnimal;
+  public final TextView txtAula;
+
+  @NonNull
+  public final TextView txtDia;
+
+  @NonNull
+  public final TextView txtEstado;
+
+  @NonNull
+  public final TextView txtGrupo;
+
+  @NonNull
+  public final TextView txtProfFalta;
 
   private ItemGuardiaBinding(@NonNull MaterialCardView rootView,
-      @NonNull ImageView imageViewFotoAnimal, @NonNull ConstraintLayout layout,
-      @NonNull TextView textViewNombreAnimal) {
+      @NonNull ConstraintLayout iconConstraint, @NonNull ImageView iconImageView,
+      @NonNull ConstraintLayout layout, @NonNull TextView txtAula, @NonNull TextView txtDia,
+      @NonNull TextView txtEstado, @NonNull TextView txtGrupo, @NonNull TextView txtProfFalta) {
     this.rootView = rootView;
-    this.imageViewFotoAnimal = imageViewFotoAnimal;
+    this.iconConstraint = iconConstraint;
+    this.iconImageView = iconImageView;
     this.layout = layout;
-    this.textViewNombreAnimal = textViewNombreAnimal;
+    this.txtAula = txtAula;
+    this.txtDia = txtDia;
+    this.txtEstado = txtEstado;
+    this.txtGrupo = txtGrupo;
+    this.txtProfFalta = txtProfFalta;
   }
 
   @Override
@@ -66,9 +87,15 @@ public final class ItemGuardiaBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageViewFotoAnimal;
-      ImageView imageViewFotoAnimal = ViewBindings.findChildViewById(rootView, id);
-      if (imageViewFotoAnimal == null) {
+      id = R.id.iconConstraint;
+      ConstraintLayout iconConstraint = ViewBindings.findChildViewById(rootView, id);
+      if (iconConstraint == null) {
+        break missingId;
+      }
+
+      id = R.id.iconImageView;
+      ImageView iconImageView = ViewBindings.findChildViewById(rootView, id);
+      if (iconImageView == null) {
         break missingId;
       }
 
@@ -78,14 +105,38 @@ public final class ItemGuardiaBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.textViewNombreAnimal;
-      TextView textViewNombreAnimal = ViewBindings.findChildViewById(rootView, id);
-      if (textViewNombreAnimal == null) {
+      id = R.id.txtAula;
+      TextView txtAula = ViewBindings.findChildViewById(rootView, id);
+      if (txtAula == null) {
         break missingId;
       }
 
-      return new ItemGuardiaBinding((MaterialCardView) rootView, imageViewFotoAnimal, layout,
-          textViewNombreAnimal);
+      id = R.id.txtDia;
+      TextView txtDia = ViewBindings.findChildViewById(rootView, id);
+      if (txtDia == null) {
+        break missingId;
+      }
+
+      id = R.id.txtEstado;
+      TextView txtEstado = ViewBindings.findChildViewById(rootView, id);
+      if (txtEstado == null) {
+        break missingId;
+      }
+
+      id = R.id.txtGrupo;
+      TextView txtGrupo = ViewBindings.findChildViewById(rootView, id);
+      if (txtGrupo == null) {
+        break missingId;
+      }
+
+      id = R.id.txtProfFalta;
+      TextView txtProfFalta = ViewBindings.findChildViewById(rootView, id);
+      if (txtProfFalta == null) {
+        break missingId;
+      }
+
+      return new ItemGuardiaBinding((MaterialCardView) rootView, iconConstraint, iconImageView,
+          layout, txtAula, txtDia, txtEstado, txtGrupo, txtProfFalta);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

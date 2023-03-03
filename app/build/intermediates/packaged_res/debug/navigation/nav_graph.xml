@@ -21,10 +21,22 @@
         <action
             android:id="@+id/action_fragmentInicio_to_fragmentMantenimientoGuardia"
             app:destination="@id/fragmentMantenimientoGuardia" />
+        <action
+            android:id="@+id/action_fragmentInicio_to_fragmentDetalleGuardia"
+            app:destination="@id/fragmentDetalleGuardia" >
+            <argument
+                android:name="guardiaId"
+                app:argType="integer" />
+        </action>
     </fragment>
     <fragment
         android:id="@+id/fragmentMantenimientoGuardia"
-        android:name="es.grupo3.myapplication.view.FragmentMantenimientoGuardia"
+        android:name="es.grupo3.myapplication.view.FragmentNuevoAviso"
         android:label="fragment_mantenimiento_guardia"
-        tools:layout="@layout/fragment_mantenimiento_guardia" />
+        tools:layout="@layout/fragment_nuevo_aviso" />
+    <fragment
+        android:id="@+id/fragmentDetalleGuardia"
+        android:name="es.grupo3.myapplication.view.FragmentDetalleGuardia"
+        android:label="fragment_detalle_guardia"
+        tools:layout="@layout/fragment_detalle_guardia" />
 </navigation>

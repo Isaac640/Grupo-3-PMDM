@@ -5,91 +5,91 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="23"
-8-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml
+8        android:minSdkVersion="24"
+8-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml
+9-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:6:5-67
-11-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:6:22-64
+11-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:6:22-64
 12
 13    <application
-13-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:8:5-28:19
+13-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:8:5-28:19
 14        android:allowBackup="true"
-14-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:10:9-35
+14-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:10:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.8.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\0bbd1ac94e5abeb89e25cdfd432b4829\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.8.0] /Users/ruben/.gradle/caches/transforms-3/0bbd1ac94e5abeb89e25cdfd432b4829/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
 16        android:dataExtractionRules="@xml/data_extraction_rules"
-16-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:11:9-65
+16-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:11:9-65
 17        android:debuggable="true"
 18        android:extractNativeLibs="false"
 19        android:fullBackupContent="@xml/backup_rules"
-19-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:12:9-54
+19-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:12:9-54
 20        android:icon="@mipmap/ic_launcher"
-20-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:13:9-43
+20-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:13:9-43
 21        android:label="@string/app_name"
-21-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:14:9-41
+21-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:14:9-41
 22        android:roundIcon="@mipmap/ic_launcher_round"
-22-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:15:9-54
+22-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:15:9-54
 23        android:supportsRtl="true"
-23-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:16:9-35
+23-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:16:9-35
 24        android:testOnly="true"
 25        android:theme="@style/Theme.Grupo_3_Intermodular"
-25-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:17:9-58
+25-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:17:9-58
 26        android:usesCleartextTraffic="true" >
-26-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:9:9-44
+26-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:9:9-44
 27        <activity
-27-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:19:9-27:20
+27-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:19:9-27:20
 28            android:name="es.grupo3.myapplication.MainActivity"
-28-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:20:13-41
+28-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:20:13-41
 29            android:exported="true" >
-29-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:21:13-36
+29-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:21:13-36
 30            <intent-filter>
-30-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:22:13-26:29
+30-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:22:13-26:29
 31                <action android:name="android.intent.action.MAIN" />
-31-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:23:17-69
-31-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:23:25-66
+31-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:23:17-69
+31-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:23:25-66
 32
 33                <category android:name="android.intent.category.LAUNCHER" />
-33-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:25:17-77
-33-->D:\Usuarios\dam218\Desktop\Grupo-3-PMDM\app\src\main\AndroidManifest.xml:25:27-74
+33-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:25:17-77
+33-->/Users/ruben/Development/Insti/Grupo-3-PMDM/app/src/main/AndroidManifest.xml:25:27-74
 34            </intent-filter>
 35        </activity>
 36
 37        <uses-library
-37-->[androidx.window:window:1.0.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b78b12446456cc9b94381cebbe873725\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+37-->[androidx.window:window:1.0.0] /Users/ruben/.gradle/caches/transforms-3/b78b12446456cc9b94381cebbe873725/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
 38            android:name="androidx.window.extensions"
-38-->[androidx.window:window:1.0.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b78b12446456cc9b94381cebbe873725\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+38-->[androidx.window:window:1.0.0] /Users/ruben/.gradle/caches/transforms-3/b78b12446456cc9b94381cebbe873725/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
 39            android:required="false" />
-39-->[androidx.window:window:1.0.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b78b12446456cc9b94381cebbe873725\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+39-->[androidx.window:window:1.0.0] /Users/ruben/.gradle/caches/transforms-3/b78b12446456cc9b94381cebbe873725/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
 40        <uses-library
-40-->[androidx.window:window:1.0.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b78b12446456cc9b94381cebbe873725\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+40-->[androidx.window:window:1.0.0] /Users/ruben/.gradle/caches/transforms-3/b78b12446456cc9b94381cebbe873725/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
 41            android:name="androidx.window.sidecar"
-41-->[androidx.window:window:1.0.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b78b12446456cc9b94381cebbe873725\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+41-->[androidx.window:window:1.0.0] /Users/ruben/.gradle/caches/transforms-3/b78b12446456cc9b94381cebbe873725/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
 42            android:required="false" />
-42-->[androidx.window:window:1.0.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b78b12446456cc9b94381cebbe873725\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+42-->[androidx.window:window:1.0.0] /Users/ruben/.gradle/caches/transforms-3/b78b12446456cc9b94381cebbe873725/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
 43
 44        <provider
-44-->[androidx.emoji2:emoji2:1.2.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b988f67f4b01184c811cdd2f5b507f6d\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/ruben/.gradle/caches/transforms-3/b988f67f4b01184c811cdd2f5b507f6d/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 45            android:name="androidx.startup.InitializationProvider"
-45-->[androidx.emoji2:emoji2:1.2.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b988f67f4b01184c811cdd2f5b507f6d\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/ruben/.gradle/caches/transforms-3/b988f67f4b01184c811cdd2f5b507f6d/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 46            android:authorities="es.grupo3.myapplication.androidx-startup"
-46-->[androidx.emoji2:emoji2:1.2.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b988f67f4b01184c811cdd2f5b507f6d\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/ruben/.gradle/caches/transforms-3/b988f67f4b01184c811cdd2f5b507f6d/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 47            android:exported="false" >
-47-->[androidx.emoji2:emoji2:1.2.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b988f67f4b01184c811cdd2f5b507f6d\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/ruben/.gradle/caches/transforms-3/b988f67f4b01184c811cdd2f5b507f6d/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 48            <meta-data
-48-->[androidx.emoji2:emoji2:1.2.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b988f67f4b01184c811cdd2f5b507f6d\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+48-->[androidx.emoji2:emoji2:1.2.0] /Users/ruben/.gradle/caches/transforms-3/b988f67f4b01184c811cdd2f5b507f6d/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-49-->[androidx.emoji2:emoji2:1.2.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b988f67f4b01184c811cdd2f5b507f6d\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+49-->[androidx.emoji2:emoji2:1.2.0] /Users/ruben/.gradle/caches/transforms-3/b988f67f4b01184c811cdd2f5b507f6d/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 50                android:value="androidx.startup" />
-50-->[androidx.emoji2:emoji2:1.2.0] D:\Usuarios\dam218\.gradle\caches\transforms-3\b988f67f4b01184c811cdd2f5b507f6d\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+50-->[androidx.emoji2:emoji2:1.2.0] /Users/ruben/.gradle/caches/transforms-3/b988f67f4b01184c811cdd2f5b507f6d/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 51            <meta-data
-51-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Usuarios\dam218\.gradle\caches\transforms-3\7305acb248aec9427c05608db2526d9e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ruben/.gradle/caches/transforms-3/7305acb248aec9427c05608db2526d9e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Usuarios\dam218\.gradle\caches\transforms-3\7305acb248aec9427c05608db2526d9e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ruben/.gradle/caches/transforms-3/7305acb248aec9427c05608db2526d9e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 53                android:value="androidx.startup" />
-53-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Usuarios\dam218\.gradle\caches\transforms-3\7305acb248aec9427c05608db2526d9e\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/ruben/.gradle/caches/transforms-3/7305acb248aec9427c05608db2526d9e/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 54        </provider>
 55    </application>
 56

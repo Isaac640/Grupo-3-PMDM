@@ -71,7 +71,7 @@
             android:layout_marginLeft="10dp"
             android:background="@android:color/transparent"
             android:hint="Buscar"
-            android:inputType="textPassword" />
+            android:inputType="textPersonName" />
     </LinearLayout>
 
     <com.google.android.material.appbar.AppBarLayout

@@ -4,4 +4,5 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="iniciar_sesion">Iniciar sesión</string>
     <string name="btnContinuar">Continuar</string>
+    <string name="app_package">es.grupo3.guardias</string>
 </resources>

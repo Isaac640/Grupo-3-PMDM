@@ -11,34 +11,50 @@ import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import es.grupo3.myapplication.databinding.FragmentAvisosBinding
+import es.grupo3.myapplication.databinding.FragmentGuardiasBinding
 import es.grupo3.myapplication.model.Guardia
 import es.grupo3.myapplication.viewmodel.ViewModel
 
 class FragmentGuardias : Fragment() {
-    private lateinit var binding: FragmentAvisosBinding
+    private lateinit var binding: FragmentGuardiasBinding
+    private lateinit var navController: NavController
     private val viewModel: ViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentAvisosBinding.inflate(inflater, container, false)
+        binding = FragmentGuardiasBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        navController = view.findNavController()
+
         viewModel.cargarGuardias()
+
+        var guardiasFiltered: MutableList<Guardia> = mutableListOf()
 
         viewModel.guardiasLiveData.observe(viewLifecycleOwner) { guardias ->
             with(binding.recyclerView) {
-                adapter = Adapter(guardias) { guardia -> onClickGuardia(guardia) }
+                var g = guardias.filter {
+                    it.estado == "C" && it.profGuardia == null
+                }
+
+                viewModel.horariosGuardias.forEach { e ->
+                    guardiasFiltered.addAll(g.filter { it.diaSemana == e.diaSemana && it.hora == e.horaGuardia.id })
+                }
+
+                adapter =
+                    AdapterGuardias(guardiasFiltered, 0) { guardia -> onClickGuardia(guardia) }
                 layoutManager = LinearLayoutManager(context)
                 addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
             }
         }
+
+        binding.txtNoResults.isVisible = guardiasFiltered.isEmpty()
 
         viewModel.estaCargandoLiveData.observe(viewLifecycleOwner) { estaCargando ->
             binding.progressBarCarga.isVisible = estaCargando
@@ -47,5 +63,8 @@ class FragmentGuardias : Fragment() {
     }
 
     private fun onClickGuardia(guardia: Guardia) {
+        var accion =
+            FragmentInicioDirections.actionFragmentInicioToFragmentDetalleGuardia(guardia.id)
+        navController.navigate(accion)
     }
 }

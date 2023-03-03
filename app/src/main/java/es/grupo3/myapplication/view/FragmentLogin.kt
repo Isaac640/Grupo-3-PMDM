@@ -1,6 +1,6 @@
 package es.grupo3.myapplication.view
 
-import android.app.Activity
+import LoginStorageHelper
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -17,7 +17,6 @@ import androidx.navigation.findNavController
 import es.grupo3.myapplication.R
 import es.grupo3.myapplication.data.Repository
 import es.grupo3.myapplication.databinding.FragmentLoginBinding
-import es.grupo3.myapplication.model.Profesor
 import es.grupo3.myapplication.viewmodel.ViewModel
 import kotlinx.coroutines.launch
 
@@ -35,7 +34,6 @@ class FragmentLogin : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.btnContinuar.setOnClickListener {
-
             if (binding.txtUsuario.text.isEmpty() || binding.txtContrasena.text.isEmpty()) {
                 Toast.makeText(
                     requireContext(),
@@ -48,12 +46,11 @@ class FragmentLogin : Fragment() {
 
             binding.progressBar.isVisible = true
             lifecycleScope.launch {
-                var repository: Repository = Repository()
+                var repository = Repository()
+                var user: String = "${binding.txtUsuario.text}"
+                var passwd: String = viewModel.encryptMD5("${binding.txtContrasena.text}")
 
-                val id: Int = repository.iniciarSesion(
-                    binding.txtUsuario.text.toString(),
-                    viewModel.encryptMD5(binding.txtContrasena.text.toString())
-                )
+                val id: Int = repository.iniciarSesion(user, passwd)
 
                 if (id == 0) {
                     Toast.makeText(
@@ -64,8 +61,9 @@ class FragmentLogin : Fragment() {
                     return@launch
                 }
 
-                //var profesor: Profesor = repository.getProfesor(id)
+                viewModel.profesor = repository.getProfesor(id)
 
+                LoginStorageHelper(requireContext()).saveLogin(user, passwd)
                 view.findNavController().navigate(R.id.action_fragmentLogin_to_fragmentInicio)
             }
             binding.progressBar.isVisible = false

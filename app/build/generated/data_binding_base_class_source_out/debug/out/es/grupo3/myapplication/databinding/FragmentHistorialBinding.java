@@ -4,10 +4,12 @@ package es.grupo3.myapplication.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import es.grupo3.myapplication.R;
@@ -20,12 +22,21 @@ public final class FragmentHistorialBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView textView2;
+  public final ProgressBar progressBarCarga;
+
+  @NonNull
+  public final RecyclerView recyclerView;
+
+  @NonNull
+  public final TextView txtNoResults;
 
   private FragmentHistorialBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView textView2) {
+      @NonNull ProgressBar progressBarCarga, @NonNull RecyclerView recyclerView,
+      @NonNull TextView txtNoResults) {
     this.rootView = rootView;
-    this.textView2 = textView2;
+    this.progressBarCarga = progressBarCarga;
+    this.recyclerView = recyclerView;
+    this.txtNoResults = txtNoResults;
   }
 
   @Override
@@ -55,13 +66,26 @@ public final class FragmentHistorialBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.textView2;
-      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
-      if (textView2 == null) {
+      id = R.id.progressBarCarga;
+      ProgressBar progressBarCarga = ViewBindings.findChildViewById(rootView, id);
+      if (progressBarCarga == null) {
         break missingId;
       }
 
-      return new FragmentHistorialBinding((ConstraintLayout) rootView, textView2);
+      id = R.id.recyclerView;
+      RecyclerView recyclerView = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerView == null) {
+        break missingId;
+      }
+
+      id = R.id.txtNoResults;
+      TextView txtNoResults = ViewBindings.findChildViewById(rootView, id);
+      if (txtNoResults == null) {
+        break missingId;
+      }
+
+      return new FragmentHistorialBinding((ConstraintLayout) rootView, progressBarCarga,
+          recyclerView, txtNoResults);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
